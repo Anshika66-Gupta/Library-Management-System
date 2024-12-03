@@ -1,0 +1,47 @@
+Create the Project
+Using IntelliJ IDEA or Eclipse or vs code
+
+Open your IDE.
+Create a new Java Project.
+Name it LibraryManagementSystem.
+Using Command Line
+
+- Create a directory for the project:
+bash
+Copy code:
+mkdir LibraryManagementSystem
+cd LibraryManagementSystem
+- Add the Code
+Create a folder structure:
+
+bash
+Copy code:
+mkdir -p src
+cd src
+- Save the Java classes:
+
+Create individual .java files in the src directory for each class:
+User.java
+Admin.java
+Member.java
+Book.java
+Library.java
+UserFactory.java
+Main.java
+
+
+ Compile the Code
+If you're using an IDE, the code will automatically compile when you build the project.
+Using Command Line:
+bash
+- Copy code
+javac -d bin src/*.java
+This compiles the code and stores the .class files in a bin directory.
+ Run the Code
+Using an IDE:
+Right-click on the Main.java file and select Run.
+Using Command Line:
+Run the compiled code:
+bash
+- Copy code
+java -cp bin Main
